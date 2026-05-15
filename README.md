@@ -1,162 +1,33 @@
-# Standup Agent
+# AI Skill Hub
 
-A lightweight AI agent that automatically generates a structured visual summary for your standups on a configured schedule. It analyzes day-to-day changes across platforms like Jira, GitHub, Slack, AI notetakers, and other operational sources.
+A collection of lightweight AI-powered operational and workflow skills designed to automate repetitive work, improve execution visibility, and accelerate delivery.
 
-The goal is simple:
+The repository focuses on practical AI skills that can be deployed quickly using lightweight automation patterns, MCP integrations, and modern AI tooling.
 
-> automate meeting prep, eliminate time spent on generic status updates, and focus standups on more productive dialogue: blockers, decisions, and execution.
-
----
-
-## Preview
-
-### Traditional Standup Workflow
-
-![Traditional Standup Workflow](assets/traditional-standup-workflow.jpeg)
-
-### Automated Slack Summary
-
-![Automated Slack Summary](assets/slack-summary.jpeg)
-
-The generated standup summary can include:
-- progress updates since the previous working day
-- blockers and stale work
-- PR and activity updates
-- ticket and workflow changes
-- signals and themes across active work items
-- deployment or release updates
-- team insights and risks
-
-By default, updates are grouped by team member, but summaries can also be organized by project, sprint, customer, status, or other workflow categories.
+Skills in this repository are designed to:
+- automate operational workflows
+- reduce manual coordination overhead
+- surface actionable insights
+- improve execution visibility
+- support teams with lightweight AI-enabled systems
 
 ---
 
-## Why This Exists
+## Skills
 
-Most recurring update meetings spend too much time repeating information that already exists in:
-- project trackers
-- tickets
-- chat platforms
-- meeting notes
-- documents
-- operational systems
+### Standup Agent
 
-Important blockers, stale work, and coordination issues are often scattered across multiple systems and easy to miss during fast-moving update meetings.
+A lightweight AI agent that automatically generates structured standup summaries based on changes across platforms like Jira, GitHub, Slack, AI notetakers, and other operational systems.
 
-Standup Agent surfaces those updates in a format that is quick to scan before the meeting starts.
+Focus areas include:
+- automated meeting prep
+- blocker detection
+- stale work detection
+- sprint and delivery visibility
+- operational summaries
+- team-level execution insights
 
----
-
-## How It Works
+Location:
 
 ```text
-Jira ───────┐
-GitHub ────┤
-Slack ─────┤
-AI Notes ──┤ → Standup Agent → Visual Summary
-Docs ──────┘
-```
-
-The agent gathers updates from connected systems and generates a structured summary based on changes since the previous working day.
-
----
-
-## Features
-
-- Structured visual standup summaries
-- Progress tracking since the previous working day
-- Grouped updates by person, project, sprint, or workflow
-- Ticket and activity updates
-- PR and review awareness
-- Blocker and stale work detection
-- Signals and themes across active work items
-- Expandable summary sections
-- Optional AI-notetaker integration
-- Conversational setup flow
-- Lightweight deployment
-
----
-
-## Design Philosophy
-
-This project intentionally stays lightweight.
-
-The goal is not to build another analytics platform.
-
-The focus is:
-- automate repetitive tasks
-- quick setup
-- useful summaries
-- explainable signals
-- lightweight deployment
-- fast iteration
-
-The agent is designed to support standups — not replace human judgment.
-
----
-
-## Best Fit
-
-Works best for teams that:
-- run recurring standups or update meetings
-- track work across multiple systems
-- need quick visibility into recent changes and blockers
-- want lightweight automated meeting prep
-- rely on asynchronous or distributed collaboration
-
-Especially useful for:
-- engineering and product teams
-- operations teams
-- project and program management
-- implementation and delivery teams
-- client services organizations
-- cross-functional initiatives
-
----
-
-## Deployment
-
-Typical setup flow:
-
-```text
-1. Run generator
-2. Answer setup questions
-3. Connect sources
-4. Configure schedule
-5. Generate agent
-6. Post summaries automatically
-```
-
-Designed for lightweight deployment with:
-- Claude Code
-- MCP connectors
-- cron jobs
-- simple automation workflows
-
-No complex infrastructure required.
-
----
-
-## Example Signals
-
-The agent can surface signals like:
-- tickets stuck in review too long
-- blockers affecting multiple items
-- stale work with no recent activity
-- sprint risk based on remaining work
-- missing ownership updates
-- mismatches between status and activity
-
----
-
-## Status
-
-Prototype / reference implementation.
-
-Designed for rapid iteration and real-world operational testing.
-
----
-
-## License
-
-MIT (recommended)
+/Standup-Agent
